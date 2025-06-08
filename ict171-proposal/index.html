@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ICT171 Project Proposal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Embed Montserrat as specified -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Link local CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="montserrat-main">
+    <h1>ICT171 Project Proposal</h1>
+    <p><strong>Student Name:</strong> Alex Quartermaine<br>
+       <strong>Student ID:</strong> 35403093<br>
+       <strong>Server IP:</strong> 170.64.240.29</p>
+
+    <h2>Project Description</h2>
+    <p>
+        For my ICT171 cloud deployment project, I have implemented a Linux-based web server hosted on Digital Ocean using the Infrastructure as a Service (IaaS) model. The server runs Ubuntu with Nginx configured inside a Docker container to deliver static web content. droplet located in the Sydney data center, providing a reliable and cost-effective hosting environment for educational and small-scale professional projects.
+        The web server hosts a custom-built static website designed to present my project proposal, server information, and licensing details. Using Docker allows for containerized isolation, making the deployment easier to manage, scale, and secure. The server firewall (UFW) is configured to restrict non-essential ports, minimizing the attack surface. Preparations are in place for SSL/TLS implementation to secure traffic via HTTPS using Certbot and Let’s Encrypt.
+        The project demonstrates key learning outcomes of ICT171, including provisioning a cloud-based Linux server, configuring web server software, deploying containerized applications, managing basic security controls, and understanding operational costs. This deployment remains online throughout the assessment period and uses a domain registered via NameSilo (quartzcs.com) to make the site publicly accessible. The setup enables easy future expansions, such as adding reverse proxies or scaling additional services, showing practical server administration skills.
+    </p>
+
+    <h2>License Rationale</h2>
+    <p>
+        For this project, I have selected the MIT License for the website content and related server-side configurations. The MIT License is a highly permissive open-source license that allows others to freely use, copy, modify, and distribute the work, provided that the original copyright notice is included.
+        This license promotes open collaboration and aligns with the educational goals of this deployment.
+    </p>
+
+    <h2>MIT License</h2>
+    <pre>
+MIT License
+
+Copyright (c) 2025 Alex Quartermaine
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    </pre>
+
+    <footer>
+        Hosted on Digital Ocean | Server IP: 170.64.240.29 | Domain: quartzcs.com
+        This project is for educational purposes only.
+    </footer>
+
+       <script src="script.js"></script>
+</body>
+</html>
