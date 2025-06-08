@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <a href="#" id="hamburger-menu">
+            <i class="fas fa-bars"></i>
+          </a>
+        <div id="menu">
+            <button class="btn_one" onclick="window.open('http://170.64.240.29:8080', '_blank')">View Project Proposal</button>
+            <button class="btn_one" onclick="window.open('https://imfunniee.github.io', '_blank')">Creators Github</button>
+        </div>
+        <h1>Alex Quartermaine</h1>
+        <h2>Cyber Security Professional </h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>works.</h1>
+        <section>
+            <h2>Student Portfolio Project (ICT171)</h2>
+            <p>
+               This portfolio site highlights my capabilities in modern web development and cloud infrastructure. Built using a lightweight tech stack and hosted on a secure cloud server, it reflects my skills in HTML, CSS, JavaScript, and DevOps tooling. The site is containerized using Docker and deployed with NGINX for performance and flexibility. Security and reliability were key priorities — SSL encryption, DNS configuration, and best-practice deployment workflows were all implemented to ensure a stable and professional presence online.
+	    </p>
+
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+            </div>
+            <button class="btn_one" onclick="window.open('https://www.murdoch.edu.au/', '_blank')">Visit Murdoch University</button>
+            <button class="btn_two" onclick="window.open('https://github.com/hurricane0x45/ICT171-Cloud-Project---Server-Environments-and-Architectures', '_blank')">GitHub Source</button>
+
+        </section>
+        <h2>Cyber Security Club @ Murdoch</h2>
+        <p>
+            I currently serve as the <strong>President of the Murdoch University Cyber Security Club</strong>, a student-led initiative aimed at fostering interest, collaboration, and upskilling in digital security and ethical hacking.
+            <br><br>
+            Our club hosts hands-on workshops, CTF competitions, and guest lectures from industry professionals. As president, I coordinate event planning, mentor junior members, and drive engagement with both academic and industry partners.
+            <br><br>
+            The club is an inclusive space for all students interested in cyber security, whether you're a beginner or an experienced analyst in training. Through this leadership role, I’ve gained real-world experience in technical coordination, team leadership, and public engagement.
+        </p>
+        <button class="btn_one" onclick="window.open('https://mcis.xyz/', '_blank')">MCIS Website</button>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <!-- -->
+            <section>
+                  <p>
+                    <div id="about-me">
+                        <h2>About Me</h2>
+                        <p>Welcome! I'm <strong>Alex Quartermaine</strong>, currently pursuing a Bachelor of Information Technology, majoring in Cyber Security and Forensics at Murdoch University. My academic journey includes advanced certifications from South Metropolitan TAFE Murdoch, where I completed the <strong>22334VIC Certificate IV</strong> and the <strong>22445VIC Advanced Diploma in Cyber Security</strong>. These programs have equipped me with a deep understanding of network security, threat analysis, and the legal frameworks surrounding digital security.</p>
+                        <p>With a strong technical background and a keen analytical mind, I excel at solving complex problems and am always eager to engage in continuous learning and improvement. My diverse skills, developed through varied industry experiences, position me uniquely to address and manage sophisticated cyber threats.</p>
+                    </div>
+                    <div id="education-training">
+                        <h2>Education & Training</h2>
+                        <p><strong>Bachelor of Information Technology, Majoring in Cyber Security and Forensics, Murdoch University:</strong>
+                            Dedicated studies focus on the advanced concepts of cyber security and forensic techniques, preparing to address complex security challenges in the digital world.</p>
+                        <p><strong>South Metropolitan TAFE Murdoch:</strong>
+                            Achieved <strong>22334VIC Certificate IV in Cyber Security</strong> and <strong>22445VIC Advanced Diploma in Cyber Security</strong>. These qualifications have provided a robust foundation in network security, threat management, and preventive security measures.</p>
+                        <p><strong>Splunk Fundamentals 7:</strong>
+                            Trained in using Splunk for efficient data analysis and threat management, enhancing capabilities in handling real-time security and data challenges.</p>
+                            <p><strong>AWS Cloud Fundamentals:</strong>
+                                Completed training on AWS Cloud Fundamentals, gaining knowledge in cloud concepts, core AWS services, security, architecture, pricing, and support.</p>
+  
+                    </div>
+                </p>
+            </section>
+            <!-- -->
+            <section>
+                <h2>skills</h2>
+                <p>
+                        <h3>Cyber Security and Forensics:</h3>
+                        <ul>
+                            <li>Threat analysis</li>
+                            <li>Cryptography</li>
+                            <li>Network security</li>
+                            <li>Incident response</li>
+                            <li>Security policies and procedures</li>
+                        </ul>               
+                        <h3>Server and Network Architecture:</h3>
+                        <ul>
+                            <li>Server setup and configuration</li>
+                            <li>Linux and Windows environments</li>
+                            <li>Firewalls, routers, and switches</li>
+                            <li>Network infrastructure</li>
+                        </ul>
+                        
+                        <h3>Cloud Computing:</h3>
+                        <div id="used">
+                            <div><i class="fas fa-circle"></i>&nbsp;AWS</div>
+                            <div><i class="fas fa-circle"></i>&nbsp;Azure</div>
+			    <div><i class="fas fa-circle"></i>&nbsp;Digital Ocean</div>
+                            <div><i class="fas fa-circle"></i>&nbsp;Virtualization</div>
+                            <div><i class="fas fa-circle"></i>&nbsp;Containerization (Docker)</div>
+                        </div>
+                        
+                        <h3>Tools and Technologies:</h3>
+                        <div id="used">
+                            <div><i class="fas fa-circle"></i>&nbsp;Splunk</div>
+                            <div><i class="fas fa-circle"></i>&nbsp;Wireshark</div>
+                            <div><i class="fas fa-circle"></i>&nbsp;Docker</div>
+                            <div><i class="fas fa-circle"></i>&nbsp;Various Cyber Security and IT tools</div>
+                        </div>               
+                        <h3>Programming Languages:</h3>
+                            <div id="used">
+                                <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+                                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+                                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+                                <div><i class="fas fa-circle"></i>&nbsp;Python</div>
+                                <div><i class="fas fa-circle"></i>&nbsp;C</div>
+                                <div><i class="fas fa-circle"></i>&nbsp;C++</div>
+                                <div><i class="fas fa-circle"></i>&nbsp;C#</div>
+                                <div><i class="fas fa-circle"></i>&nbsp;Ruby</div>
+                                <div><i class="fas fa-circle"></i>&nbsp;PHP</div>
+                        </div>  
+                </p>
+            </section>
+            <!-- -->
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact me</h2>
+                    <form>
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                        <button class="btn_one">send</button>
+                    </form>
+            </section>
+        </div>
+    <script src="/js-internal/index.js" type="text/javascript"></script>
+    <script src="/js-internal/particles.js"></script>
+    <script src="/js-internal/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Ignore SSL certificates and Certbot data
+nginx/ssl/
+certbot/
+
+*.pem
+*.key
+*.crt
+*.csr
+*.log
+.env
