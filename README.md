@@ -1,7 +1,8 @@
 # ICT171 Cloud Project – Portfolio + Proposal
 
-**Student Name:** Alex Quartermaine
-**Student ID:** 35403093
+**Student** Alex Quartermaine  
+**Student ID:** 35403093  
+**Unit:** ICT171 – Introduction to Server Environments and Architectures (S1, 2025)  
 
 This repository contains two subprojects submitted for ICT171 – *Introduction to Server Environments and Architectures* (Semester 1, 2025):
 
@@ -44,7 +45,7 @@ Features:
 - Secure JavaScript route aliasing
 - DNS & HTTPS tested and operational
 
-Details in [`MY-Cyber-Portfolio/README.md`](./MY-Cyber-Portfolio/README.md)
+Details in [`MY-Cyber-Portfolio/README.md`](MY-Cyber-Portfolio_README.md)
 
 
 
@@ -60,7 +61,7 @@ Features:
 - Responsive and lightweight
 - Manual deployment via docker + custom container
 
-Details in [`ict171-proposal/README.md`](./ict171-proposal/README.md)
+Details in [`ict171-proposal/README.md`](ict171-proposal_README.md)
 
 
 ## 3 – HTML Presentation Deployment
@@ -74,6 +75,6 @@ This is a minimal HTML presentation (from `complete_presentation_slides.html`) h
 - Lightweight, fast-loading HTML
 - Isolated and easy to redeploy using `build_and_run.sh`
 
-Details in [`Presentation/README.md`](./Presentation/README.md)
+Details in [`Presentation/README.md`](Presentation_README.md)
 
 
