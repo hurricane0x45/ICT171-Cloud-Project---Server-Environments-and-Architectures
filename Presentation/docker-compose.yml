@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  presentation:
+    build: .
+    ports:
+      - "8181:80"
+    container_name: presentation_server
+    restart: unless-stopped
