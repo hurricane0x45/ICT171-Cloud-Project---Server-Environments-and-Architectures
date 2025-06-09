@@ -1,7 +1,7 @@
 # ICT171 Presentation Deployment
 
-**Student:** Alex Quartermaine
-**Student ID:** 35403093
+**Student:** Alex Quartermaine  
+**Student ID:** 35403093  
 **Unit:** ICT171 – Introduction to Server Environments and Architectures (S1, 2025)
 
 This subproject contains the complete Docker-based deployment of my presentation website. It is deployed locally using NGINX and mapped to a custom port.
@@ -15,18 +15,19 @@ This project demonstrates:
 - NGINX configuration with a custom port mapping
 - Local development and deployment
 
-## Local Site: http://localhost:8181
+**Accessible at:** http://quartzcs.com:8181
 
 ## Directory Structure
 
-presentation-deployment/
-├── docker-compose.yml              # Launches NGINX container
-├── nginx/
-│   └── default.conf                # NGINX configuration for static file serving 
-├── app/
-│   └── index.html                  # Presentation HTML file
-├── Dockerfile                      # Docker build instructions
-└── README.md                       # This file
+presentation-deployment/  
+├── docker-compose.yml              # Launches NGINX container  
+├── nginx/  
+│   └── default.conf                # NGINX configuration for static file serving  
+├── app/  
+│   └── index.html                  # Presentation HTML file  
+├── Dockerfile                      # Docker build instructions  
+├── build_and_run.sh                # Helper script for build and launch  
+└── README.md                       # This file  
 
 ## Deployment Workflow
 

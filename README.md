@@ -22,6 +22,9 @@ ICT171-Cloud-ProjectServer-Environments-and-Architectures/
 ├── ict171-proposal/           # Assignment 1 HTML/CSS-based proposal
 │   └── README.md              # Description of contents and structure
 │
+├── Presentation/              # Standalone HTML slideshow (runs on port 8181)
+│ └── README.md                # Project details and deployment steps
+│
 ├── my-cyber-portfolio.tar     # Final Docker image archive (portfolio)
 ├── ict171_project_image.tar   # Archived Docker image for proposal
 ├── quartz-nginx.tar           # Backup image with NGINX config
@@ -30,7 +33,7 @@ ICT171-Cloud-ProjectServer-Environments-and-Architectures/
 ```
 
 
-## Project 1 – MY Cyber Portfolio
+## 1 – MY Cyber Portfolio
 
 Hosted at: **https://quartzcs.com**
 Deployed via: `docker run` with mounted volumes, SSL by Certbot
@@ -45,7 +48,7 @@ Details in [`MY-Cyber-Portfolio/README.md`](./MY-Cyber-Portfolio/README.md)
 
 
 
-## Project 2 – ICT171 Proposal HTML Site
+## 2 – ICT171 Proposal HTML Site
 
 Accessible at: **http://quartzcs.com:8080**
 
@@ -58,3 +61,19 @@ Features:
 - Manual deployment via docker + custom container
 
 Details in [`ict171-proposal/README.md`](./ict171-proposal/README.md)
+
+
+## 3 – HTML Presentation Deployment
+
+**Accessible at:** http://quartzcs.com:8181
+
+This is a minimal HTML presentation (from `complete_presentation_slides.html`) hosted in a separate Docker container to demonstrate Dockerized content delivery.
+
+**Key Features:**
+- Runs independently on port `8181`
+- Lightweight, fast-loading HTML
+- Isolated and easy to redeploy using `build_and_run.sh`
+
+Details in [`Presentation/README.md`](./Presentation/README.md)
+
+
